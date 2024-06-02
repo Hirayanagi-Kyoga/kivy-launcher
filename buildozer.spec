@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Kivy Launcher
+title = (UO)Kivy Launcher
 
 # (str) Package name
-package.name = launcher
+package.name = unofficial_launcher
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.kivy
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = kivy, android
+requirements =python3==3.8.18, kivy==2.1.0, android,hostpython3==3.8.18
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -91,10 +91,10 @@ fullscreen = 0
 #android.minapi = 9
 
 # (int) Android SDK version to use
-#android.sdk = 20
+#android.sdk = 29
 
 # (str) Android NDK version to use
-# android.ndk = 25
+# android.ndk = 21e
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
@@ -222,6 +222,7 @@ ACCESS_WIFI_STATE
 BLUETOOTH
 BLUETOOTH_ADMIN
 BROADCAST_STICKY
+CAMERA
 CHANGE_NETWORK_STATE
 CHANGE_WIFI_MULTICAST_STATE
 CHANGE_WIFI_STATE
