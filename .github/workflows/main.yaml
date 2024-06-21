@@ -1,9 +1,9 @@
 name: CI
 on:
   push:
-    branches: [ main ]
+    branches: [  my_kivy ]
   pull_request:
-    branches: [ main ]
+    branches: [  my_kivy ]
 
 jobs:
   build:
